@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Quicksand&display=swap');
+
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin: auto;
+  font-family: 'Lato', sans-serif;
+
+}
+
+
+
+body {
+  background: linear-gradient(90deg, #380036 20%, #0cbaba 70%);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0cbaba;
+
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 10px;
+  border: 8px solid rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+}
+
+.block {
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.block:hover {
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+/* backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px ); */
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
