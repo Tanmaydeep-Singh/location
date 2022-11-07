@@ -4,7 +4,7 @@ import DefaultLayout from "../components/layout/DefaultLayout";
 
 function Home() {
   return (
-    <div className="m-28">
+    <div className="m-0 overflow-y-hidden sm:m-28 ">
       <BlockPage />
     </div>    
   );

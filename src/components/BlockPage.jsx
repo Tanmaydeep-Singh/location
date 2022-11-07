@@ -58,7 +58,8 @@ function BlockPage() {
 
 
   return (
-    <div className="block justify-center text-center text-xl m-20 ">
+    <div className="grid justify-center text-center content-evenly bg-orange-30 w-100 h-500 rounded-none text-lg  uppercase
+     bg-orange-300 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-100 border border-gray-100 sm:w-500 sm:rounded-lg m-auto p-0">
       <h1> You Current Location</h1>
 
       <div >

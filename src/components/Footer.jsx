@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="w-full dark:bg-gray-900 py-10 text-white">
         <div className="max-w-[1240px] mx-auto flex flex-col px-4 ">
           <div className="sm:flex text-center justify-between items-center">
-            <h1>Parkit.</h1>
+            <h1>Location-Range.</h1>
             <div className="flex justify-between w-full sm:max-w-[280px] my-4">
               <FaFacebook className="icon" />
               <FaTwitter className="icon" />

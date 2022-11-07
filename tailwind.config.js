@@ -16,6 +16,11 @@ module.exports = {
       height: {
         '547.2':'60vh',
         '80vh':'90vh',
+        '500':'500px',
+      },
+      width: {
+        '500':'500px',
+        '100':'100vw',
       },
       
       colors: {
