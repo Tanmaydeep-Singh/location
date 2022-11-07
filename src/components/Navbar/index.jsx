@@ -32,9 +32,9 @@ const MobileNav = ({
         {/* <img src="" alt="Logo" className="w-full h-full" /> */}
       </div>
       <div className="flex items-center gap-3 relative">
-        <button className="bg-parkit-200 text-white py-2 px-3 rounded-full">
+        {/* <button className="bg-parkit-200 text-white py-2 px-3 rounded-full">
           Park it
-        </button>
+        </button> */}
         {user?.fullName ? (
           <>
             <div
